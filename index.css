@@ -1,0 +1,35 @@
+/* header */
+.index__header {
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  /* margin-bottom: 20px;*/
+}
+
+.index__header h1 {
+  font-size: 20px;
+}
+
+.index__header h1:nth-child(1) {
+  margin-left: 20px;
+}
+
+.index__header h1:nth-child(2) {
+  margin-right: 20px;
+}
+
+/* main */
+.index__main {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  grid-template-rows: auto;
+  padding: 20px;
+}
+
+.section__title {
+  font-size: 18px;
+}
