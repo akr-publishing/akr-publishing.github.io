@@ -1,3 +1,8 @@
+/* body */
+.index__body {
+  font-family: "General Sans", sans-serif;
+}
+
 /* header */
 .index__header {
   width: 100vw;
@@ -6,11 +11,11 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid black;
-  /* margin-bottom: 20px;*/
 }
 
-.index__header h1 {
-  font-size: 20px;
+.index__header h1,
+.section__title {
+  font-size: 24px;
 }
 
 .index__header h1:nth-child(1) {
@@ -27,9 +32,5 @@
   display: grid;
   grid-template-columns: 7fr 3fr;
   grid-template-rows: auto;
-  padding: 20px;
-}
-
-.section__title {
-  font-size: 18px;
+  padding: 10px 20px;
 }

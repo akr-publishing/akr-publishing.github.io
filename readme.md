@@ -1,6 +1,7 @@
 Portfolio!
 
 - redesign
+  [] Art gallery 'SeMA'
   [] press company ''  
   [] Fashion brand 'ourlegacy' - collection
   [] Fashion brand 'ourlegacy'
