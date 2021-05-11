@@ -1,0 +1,31 @@
+.shop__main {
+  height: 1000vh;
+}
+
+.shop__grid {
+  height: 100%;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fill, 650px);
+  grid-gap: 5px;
+}
+
+.shop__product {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+}
+
+.shop__img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.shop__img:hover {
+    border-radius: 50%;
+  }
+  
+
+}
