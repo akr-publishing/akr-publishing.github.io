@@ -1,5 +1,5 @@
 .legacyIndex__body {
-  font-family: "Ranade", sans-serif;
+  font-family: "General Sans", sans-serif;
   height: fit-content;
 }
 
@@ -75,6 +75,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(10, 1fr);
+  font-weight: 500;
 }
 
 .legacyIndex__main-li {
@@ -97,7 +98,7 @@
 }
 
 .legacyIndex__main-li:hover {
-  text-shadow: 0 0 1em gray, 0 0 0.2em purple;
+  text-shadow: 0 0 1em gray, 0 0 0.2em black;
   cursor: pointer;
 }
 
@@ -151,7 +152,7 @@
   width: 90%;
   height: 90%;
   background-image: url(../img/main.jpeg);
-  box-shadow: 1px 1px 20px 1px gray;
+  box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* jsImg-toggleClass */

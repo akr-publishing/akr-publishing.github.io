@@ -14,18 +14,42 @@
 .shop__product {
   width: 100%;
   height: 100%;
-  background-color: gray;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
+  cursor: pointer;
 }
 
 .shop__img {
   width: 100%;
   height: 100%;
-  cursor: pointer;
+  transition: 0.1s;
 }
 
-.shop__img:hover {
-    border-radius: 50%;
-  }
-  
+.shop__productInfo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  transition: 0.1s;
+  opacity: 0;
+}
 
+.shop__product:hover .shop__img {
+  border-radius: 50%;
+  box-shadow: 1px 1px 40px 1px white;
+}
+
+.shop__product:hover .shop__productInfo {
+  opacity: 1;
 }
