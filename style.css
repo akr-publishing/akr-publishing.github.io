@@ -1,6 +1,10 @@
 @import "reset.css";
 @import "index.css";
 
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+
 /* ourlegacy */
 @import "ourlegacy/css/index.css";
-@import "ourlegacy/mens/mens.css";
+@import "ourlegacy/css/shop.css";
+@import "ourlegacy/css/item.css";

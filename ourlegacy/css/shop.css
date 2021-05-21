@@ -53,3 +53,13 @@
 .shop__product:hover .shop__productInfo {
   opacity: 1;
 }
+
+.shop__soldout:hover .shop__img {
+  border-radius: 0%;
+  opacity: 0.1;
+}
+
+.nav__underline {
+  padding-bottom: 3px;
+  border-bottom: 2px dashed black;
+}

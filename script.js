@@ -37,3 +37,4 @@ $('.legacyIndex__main-li:nth-child(9)').hover(function(){
 $('.legacyIndex__main-li:nth-child(10)').hover(function(){
     $('.legacyIndex__main-img').toggleClass('img__store'); 
 })
+
