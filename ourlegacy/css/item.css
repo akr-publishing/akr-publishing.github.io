@@ -1,7 +1,6 @@
 .legacyItem__left {
-  width: 30vw;
   box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
-  transform: scaleX(0.7);
+  transform: scaleX(0.8);
 }
 
 .legacyItem__img {

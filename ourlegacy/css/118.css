@@ -1,0 +1,17 @@
+.main__118 {
+  height: 200vh;
+  border: none;
+}
+
+.main__118 section:nth-child(2) {
+  border: none;
+}
+
+.main__118 section:nth-child(2) div {
+  border-left: 2px solid black;
+}
+
+.main__118 section:nth-child(1) div {
+  width: 45vw;
+  position: fixed;
+}

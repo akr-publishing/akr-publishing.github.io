@@ -23,7 +23,6 @@
 
 .legacyIndex__header-nav {
   height: 40px;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -106,39 +105,40 @@
 }
 
 .legacyIndex__main-li:nth-child(1):hover {
-  background-image: url(../img/1.jpeg);
-}
-
-.legacyIndex__main-li:nth-child(2):hover {
   background-image: url(../img/men.jpeg);
 }
 
-.legacyIndex__main-li:nth-child(3):hover {
+.legacyIndex__main-li:nth-child(2):hover {
   background-image: url(../img/women.jpeg);
 }
 
-.legacyIndex__main-li:nth-child(4):hover {
+.legacyIndex__main-li:nth-child(3):hover {
   background-image: url(../img/118.jpeg);
 }
 
-.legacyIndex__main-li:nth-child(5):hover {
+.legacyIndex__main-li:nth-child(4):hover {
   background-image: url(../img/118story.jpeg);
 }
 
-.legacyIndex__main-li:nth-child(6):hover {
+.legacyIndex__main-li:nth-child(5):hover {
   background-image: url(../img/big.jpeg);
 }
 
-.legacyIndex__main-li:nth-child(7):hover {
+.legacyIndex__main-li:nth-child(6):hover {
   background-image: url(../img/boots.jpeg);
 }
 
+.legacyIndex__main-li:nth-child(7):hover {
+  background-image: url(../img/camion.jpeg);
+}
+
 .legacyIndex__main-li:nth-child(8):hover {
-  background-image: url(../img/wave.jpeg);
+  background-image: url(../img/lendShirt.jpeg);
 }
 
 .legacyIndex__main-li:nth-child(9):hover {
-  background-image: url(../img/print.jpeg);
+  background-image: url(../img/1.jpeg);
+  cursor: not-allowed;
 }
 
 .legacyIndex__main-li:nth-child(10):hover {
@@ -186,11 +186,11 @@
 }
 
 .img__wave {
-  background-image: url(../img/wave.jpeg);
+  background-image: url(../img/camion.jpeg);
 }
 
 .img__print {
-  background-image: url(../img/print.jpeg);
+  background-image: url(../img/lendShirt.jpeg);
 }
 
 .img__store {

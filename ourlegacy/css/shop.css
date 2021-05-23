@@ -1,5 +1,7 @@
 .shop__main {
-  height: 1000vh;
+  height: auto;
+  padding-bottom: 10vw;
+  border-bottom: 2px solid black;
 }
 
 .shop__grid {
@@ -62,4 +64,8 @@
 .nav__underline {
   padding-bottom: 3px;
   border-bottom: 2px dashed black;
+}
+
+.shop__productInfo h4 {
+  text-align: center;
 }
