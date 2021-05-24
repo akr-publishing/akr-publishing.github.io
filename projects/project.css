@@ -1,0 +1,32 @@
+.project__body {
+  height: 300vh;
+}
+
+.btn__home {
+  position: fixed;
+  top: 3vw;
+  left: 1vw;
+  font-size: 5vw;
+}
+
+.project__main {
+  display: flex;
+  justify-content: space-around;
+}
+.project__item {
+  width: 45vw;
+  height: 30vw;
+}
+
+.project__info {
+  margin-top: 5vw;
+}
+
+.project__info-li {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3vw;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}

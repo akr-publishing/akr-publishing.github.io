@@ -6,7 +6,7 @@
 
 .index__body {
   width: 100%;
-  height: 200vh;
+  height: auto;
   font-family: BlinkMacSystemFont, -apple-system, "Spoqa Han Sans Neo",
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
     "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -31,7 +31,7 @@
 .index__h3 {
   display: block;
   margin-top: 20px;
-  text-decoration: khaki wavy underline;
+  text-decoration: khaki dotted underline;
 }
 
 .index__btn {
@@ -48,29 +48,24 @@
 
 .index__h1 {
   background: linear-gradient(to right, #46ff85, rgba(0, 0, 0, 0) 26%, #fafd79);
-  font-family: "Nanum Gothic", sans-serif;
+
   font-size: 2.6vw;
 }
 
 .index__h2 {
   background: linear-gradient(to right, #e2aaaa, rgba(0, 0, 0, 0) 26%, #b3effc);
-  /* font-family: "Cabinet Grotesk", sans-serif; */
-  font-family: "Boska", serif;
 }
 
 .index__email {
   background: linear-gradient(to right, #f3e035, rgba(0, 0, 0, 0) 26%, #c67d7d);
-  font-family: "Segment", sans-serif;
 }
 
 .index__phone {
   background: linear-gradient(to right, #0486fe, rgba(0, 0, 0, 0) 73%, #c9c9c7);
-  font-family: "Paquito", serif;
 }
 
 .index__insta {
   background: linear-gradient(to right, #bdd23c, rgba(0, 0, 0, 0) 26%, #9173e7);
-  font-family: "Trench Slab", sans-serif;
 }
 
 .index__cv {
@@ -79,7 +74,6 @@
 
 .index__seemore {
   margin-right: 10px;
-  font-family: "Comico", cursive;
 }
 
 @media screen and (max-width: 500px) {
@@ -97,4 +91,34 @@
   .index__h3 {
     display: none;
   }
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project__li h6 {
+  text-align: center;
+  margin-top: 1vw;
+  margin-bottom: 16vh;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.project__img img {
+  width: 50vw;
+
+  /* box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);*/
+}
+
+.slide {
+  width: 50vw;
+  height: 30vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider {
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
 }

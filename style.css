@@ -4,6 +4,9 @@
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
 
+/* project */
+@import "projects/project.css";
+
 /* ourlegacy */
 @import "ourlegacy/css/index.css";
 @import "ourlegacy/css/shop.css";
