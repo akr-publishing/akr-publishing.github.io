@@ -13,16 +13,16 @@
 }
 
 .index__header {
-  font-size: 2.9vw;
+  font-size: 3vw;
 }
 
 .index__article {
   width: 95vw;
-  height: 4vw;
+  height: 3vw;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 20vh;
+  margin-bottom: 5vh;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.8);
   letter-spacing: 2px;
@@ -39,7 +39,7 @@
   height: 4vw;
   line-height: 4vw;
   padding: 0 10px;
-  margin: 0 3px;
+  margin: 0 5px;
   text-align: center;
   background-color: blanchedalmond;
   border-radius: 2rem;
@@ -48,7 +48,6 @@
 
 .index__h1 {
   background: linear-gradient(to right, #46ff85, rgba(0, 0, 0, 0) 26%, #fafd79);
-
   font-size: 2.6vw;
 }
 
@@ -78,22 +77,23 @@
 
 @media screen and (max-width: 500px) {
   .index__article {
-    font-size: 5vw;
-    line-height: 6.5vw;
+    font-size: 7vw;
+    line-height: 7.5vw;
   }
 
   .index__btn {
-    font-size: 4vw;
-    height: 7vw;
-    line-height: 7vw;
+    font-size: 7vw;
+    height: 8vw;
+    line-height: 8vw;
   }
 
-  .index__h3 {
-    display: none;
+  .index__h2 {
+    font-size: 4vw;
   }
 }
 
 .projects {
+  margin-top: 10vh;
   display: flex;
   align-items: center;
   flex-direction: column;
