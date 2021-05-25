@@ -13,7 +13,7 @@
 }
 
 .index__header {
-  font-size: 3vw;
+  font-size: 2.8vw;
 }
 
 .index__article {
@@ -46,6 +46,16 @@
   font-size: 2.2vw;
 }
 
+.index__ourlegacy {
+  background: linear-gradient(to right, #bcc2be, rgba(0, 0, 0, 0) 26%, #95709c);
+  cursor: alias;
+}
+
+.index__fashion {
+  background: linear-gradient(to right, #127031, rgba(0, 0, 0, 0) 68%, #70719c);
+  cursor: alias;
+}
+
 .index__h1 {
   background: linear-gradient(to right, #46ff85, rgba(0, 0, 0, 0) 26%, #fafd79);
   font-size: 2.6vw;
@@ -57,10 +67,12 @@
 
 .index__email {
   background: linear-gradient(to right, #f3e035, rgba(0, 0, 0, 0) 26%, #c67d7d);
+  cursor: alias;
 }
 
 .index__phone {
   background: linear-gradient(to right, #0486fe, rgba(0, 0, 0, 0) 73%, #c9c9c7);
+  cursor: alias;
 }
 
 .index__insta {
@@ -69,6 +81,7 @@
 
 .index__cv {
   background: linear-gradient(to right, #9d0707, rgba(0, 0, 0, 0) 67%, #baf9cc);
+  cursor: alias;
 }
 
 .index__seemore {
@@ -77,14 +90,18 @@
 
 @media screen and (max-width: 500px) {
   .index__article {
-    font-size: 7vw;
-    line-height: 7.5vw;
+    font-size: 4vw;
+    line-height: 4.5vw;
+  }
+
+  .index__article:nth-child(1) {
+    margin-bottom: 10vh;
   }
 
   .index__btn {
-    font-size: 7vw;
-    height: 8vw;
-    line-height: 8vw;
+    font-size: 3vw;
+    height: 4vw;
+    line-height: 4vw;
   }
 
   .index__h2 {
@@ -93,7 +110,7 @@
 }
 
 .projects {
-  margin-top: 10vh;
+  margin-top: 20vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -106,9 +123,15 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-.project__img img {
-  width: 50vw;
+.project__li h6:nth-child(1) {
+  font-size: 2.6vw;
+  font-size: 28px;
+  margin-bottom: 5vh;
+}
 
+.project__img img {
+  width: 65vw;
+  height: auto;
   /* box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);*/
 }
 
@@ -121,4 +144,23 @@
 
 .slider {
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* card */
+
+.flex__center {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.business-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50vw;
+  height: 50vh;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
 }
