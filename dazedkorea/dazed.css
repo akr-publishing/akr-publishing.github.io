@@ -1,0 +1,30 @@
+.dazed__box {
+  width: 100vw;
+  height: 100vh;
+}
+
+.dazed__img {
+  width: 100%;
+  height: 100%;
+}
+
+.dazed__header,
+.dazed__footer {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dazed__header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+.dazed__container {
+  width: 100px;
+  height: 30px;
+}
