@@ -46,6 +46,11 @@
   font-size: 2.2vw;
 }
 
+.index__dazed {
+  background: linear-gradient(to right, #9b6425, rgba(0, 0, 0, 0) 48%, #4e6b96);
+  cursor: alias;
+}
+
 .index__ourlegacy {
   background: linear-gradient(to right, #bcc2be, rgba(0, 0, 0, 0) 26%, #95709c);
   cursor: alias;
