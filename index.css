@@ -109,8 +109,9 @@
     line-height: 4vw;
   }
 
-  .index__h2 {
-    font-size: 4vw;
+  .index__h2,
+  .index__h1 {
+    font-size: 3.5vw;
   }
 }
 
