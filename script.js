@@ -38,10 +38,5 @@ $('.legacyIndex__main-li:nth-child(10)').hover(function(){
     $('.legacyIndex__main-img').toggleClass('img__store'); 
 })
 
-// $('.slider').click(function(){
-//     if (('.slide').attr('src','project__fashion/1.png')){
-//         $('.slide').attr('src','project__fashion/2.png')
-//     }else if(('.slide').attr('src','project__fashion/2.png')){
-//         $('.slide').attr('src','project__fashion/3.png')
-//     }
-// })
+// dazed
+
